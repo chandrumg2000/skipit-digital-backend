@@ -1,0 +1,7 @@
+Timestamp: 2025-11-26T06:44:27.004946
+
+Traceback (most recent call last):
+  File "C:\Users\mg0010\Documents\skipit-digital-clean\backend\main.py", line 426, in generate_audit
+    log_debug(f"Env check (from {env_path}) - EMAIL_USER found: {bool(email_user)}, EMAIL_PASS found: {bool(email_pass)}")
+    ^^^^^^^^^
+NameError: name 'log_debug' is not defined
